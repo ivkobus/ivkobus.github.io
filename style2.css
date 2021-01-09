@@ -1,0 +1,66 @@
+/*Navigacija savrsena*/
+#pozadinalinkova {
+    background-image: url("mansite.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 330px;
+    position: fixed;
+    left: 5px;
+    top: -10px;
+    border-style: outset;
+    border-color: yellowgreen;
+    border-width: 6px;
+ }
+
+#webovi {
+    position: relative;
+    right: 15px;
+    font-size: 30px;   
+    color: white;
+    text-decoration: none;
+}
+
+/* text i slika */
+
+#naslovic {
+    text-align: center;
+    font-size: 60px;
+    position: fixed;
+    left: 480px
+}
+
+#podnaslov {
+    text-align: center;
+    color: green;
+}
+#vozi {
+    text-align: right;
+}
+#textam {
+    position: relative;
+    top: -26px;
+    text-align: right;
+}
+#textcenter {
+    position: relative;
+    left: -8px;
+    background-image: url(mansite.jpg);
+    background-repeat: no-repeat;
+    background-size: 840px 1000px;
+    color: white;
+    
+}
+#info{
+    background-color: green;
+    color: aliceblue;
+    position: absolute;
+    left: 935px;
+    top: 504px;
+}
+#creator {
+    text-align: right;
+    color: ghostwhite;
+    font-size: 20px;
+}
+
+
+

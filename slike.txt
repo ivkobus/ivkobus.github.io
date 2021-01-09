@@ -1,0 +1,15 @@
+<!doctype html>
+ <html lang="eng">
+	<head>
+	
+	<a class="Pocetna" href="index.html">Pocetna</a>
+	<a class="Gallery" href="gallery.html">Slike</a>
+	<a class="Kontakt" href="contact.html">Kontakt</a>
+	
+	</head>
+	<body>
+
+
+
+	</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link href="style3.css" type="text/css" rel="stylesheet"/>
+  <head>
+    <title>IV-KO Bus</title>
+        <main>
+            <span><p>IV-KO Bus</p></span>
+        </main>  
+    <ul id="pozadinalinkova">
+       <li><a id="webovi" href="pocetna.html">Pocetna</a></li>
+	   <li><a id="webovi" href="vozila.html">Vozila</a></li>
+	   <li><a id="webovi" href="about.html">Povijest</a></li>
+	   <li><a id="webovi" href="contact.html">Kontakt</a></li>
+    </ul>
+		<style> body { color: blue ; } </style>
+		<style type="text/css">
+	       body{
+		      background-image:url('mana.jpg')  ;
+		      background-size: cover ;
+		      background-attachment: fixed ;
+		      background-position: center ;
+		      background-repeat: no-repeat ;
+           }
+	   </style>
+
+	<!-- pozadina zavrsila -->
+      
+    <style>
+      .slider {
+        width: 500px;
+        height: 300px;
+        background-color: yellow;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 0px;
+        text-align: center;
+        overflow: hidden;
+      }
+      .image-container {
+        width: 1500px;
+        background-color: goldenrod;
+        height: 300px;
+        clear: both;
+        position: relative;
+        -webkit-transition: left 2s;
+        -moz-transition: left 2s;
+        -o-transition: left 2s;
+        transition: left 2s;
+      }
+      .slide {
+        float: left;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+      }
+      #slide-1:target ~ .image-container {
+        left: 0px;
+      }
+      #slide-2:target ~ .image-container {
+        left: -500px;
+      }
+      #slide-3:target ~ .image-container {
+        left: -1000px;
+      }
+      .buttons {
+        position: relative;
+        top: -20px;
+      }
+      .buttons a {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        border-radius: 50px;
+        background-color: lightgreen;
+      }
+    </style>
+
+  </head>
+  <body id="slider">
+    <div class="slider">
+      <span id="slide-1"></span>
+      <span id="slide-2"></span>
+      <span id="slide-3"></span>
+      <div class="image-container">
+        <img src="bovica.jpg" class="slide" width="500" height="300" />
+        <img src="man2.jpg" class="slide" width="500" height="300" />
+        <img src="man4.jpg" class="slide" width="500" height="300" />
+      </div>
+      <div class="buttons">
+        <a href="#slide-1"></a>
+        <a href="#slide-2"></a>
+        <a href="#slide-3"></a>
+      </div>
+    </div>
+      
+    <!--novi tekst o firmi i busima-->
+      <p id="pismo">Imamo više verzija buseva sortirat čemo ih po broju sjedala:<br>
+          Manji busevi: Mercedes Sprinter 18sj, Man ClubStar 34sj,<br>
+          Veliki busevi: Man LionCoach 49, Setra 415HD 49sj, Setra<br> 
+          415HD 50sj, Neoplan CityLiner 57sj, VDL Bova Magique 65sj,<br>
+          VDL Bova Magique 69sj, Neoplan SkyLiner katni autobus 74sj.</p>
+      
+    
+  </body>
+</html>

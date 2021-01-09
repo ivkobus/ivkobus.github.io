@@ -1,0 +1,40 @@
+<!doctype html>
+ <html lang="eng">
+	<head>
+	
+	
+	
+	</head>
+	<body>
+	
+	<!-- Naslov stranice -->
+        <h1 id="naslov">Kontakt</h1>
+        
+        <!-- Podnaslov --!>
+
+        <h3 id="podnaslov">Ostavite vaše podatke</h3>
+
+        <!-- Forma za kontakt -->
+        <form>
+            
+            Ime:<br>
+            <input type="text">
+            <br>
+            Prezime:<br>
+            <input type="text">
+            <br>
+            Broj mobitela:<br>
+            <input type="text">
+            <br>
+            Bivše radno mjesto:<br>
+            <input type="text">
+			
+			 <br>
+
+            <button type="submit">Pošalji</button>
+
+        </form>
+        <!-- forma za kontakt - kraj -->
+	
+	</body>
+</html>

@@ -1,0 +1,117 @@
+/* naslov */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Times New Roman" serif;
+  width: 100%;
+  height: 100%;
+  font-size: 22px;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  font-size: 3rem;
+  background: linear-gradient(to bottom, #078a00, #0011ff 60%, #078a00 60%, #fff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-repeat: no-repeat;
+  transition: background 0.5s ease-out;
+  white-space: nowrap;
+}
+
+span {
+    position: absolute;
+    top: 450px; 
+    left: -300px
+}
+
+span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background: #8a4300;
+  bottom: 9px;
+  transition: all 0.2s ease-out;
+}
+
+p:hover {
+  background-position: 0 11px;
+}
+
+span:hover:before {
+  transform: translateY(10px)
+}
+
+/*Navigacija savrsena*/
+#pozadinalinkova {
+    background-image: url("mansite.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 330px;
+    position: fixed;
+    left: 5px;
+    top:  5px;
+    right: 1108.5px;
+    border-style: outset;
+    border-color: yellowgreen;
+    border-width: 6px;
+    z-index: 1000;
+ }
+
+#webovi {
+    position: relative;
+    right: -25px;
+    font-size: 30px;   
+    color: white;
+    text-decoration: none;
+}
+
+/* novo mape i slike */
+
+#slider {
+    position: absolute;
+    bottom: 440px;
+    left: 750px;
+}
+
+/* slajdovi gotovo */
+
+#pismo {
+    font-size: 25px;
+    position: absolute;
+    left: -700px;
+    bottom: -310px;
+}
+#teksti {
+    font-size: 20px;
+    position: relative;
+    left: 610px;
+    top: -400px;
+    color: white;
+}
+#naslovic {
+    position: relative;
+    left: 780px;
+    top: -400px;
+}
+
+
+
+
